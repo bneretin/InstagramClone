@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		02DF760F2163BC0600F74E29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF760E2163BC0600F74E29 /* AppDelegate.swift */; };
-		02DF76112163BC0600F74E29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF76102163BC0600F74E29 /* ViewController.swift */; };
 		02DF76162163BC0700F74E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DF76152163BC0700F74E29 /* Assets.xcassets */; };
 		02DF76192163BC0700F74E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DF76172163BC0700F74E29 /* LaunchScreen.storyboard */; };
 		02DF76212163BC9800F74E29 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DF76202163BC9800F74E29 /* Start.storyboard */; };
+		F20C3F05216653D600020DBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20C3F04216653D600020DBA /* LoginViewController.swift */; };
+		F20C3F07216653F200020DBA /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20C3F06216653F200020DBA /* RegistrationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02DF760B2163BC0600F74E29 /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DF760E2163BC0600F74E29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02DF76102163BC0600F74E29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02DF76152163BC0700F74E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02DF76182163BC0700F74E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02DF761A2163BC0700F74E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02DF76202163BC9800F74E29 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		F20C3F04216653D600020DBA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F20C3F06216653F200020DBA /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				02DF760E2163BC0600F74E29 /* AppDelegate.swift */,
-				02DF76102163BC0600F74E29 /* ViewController.swift */,
 				02DF76152163BC0700F74E29 /* Assets.xcassets */,
 				02DF76172163BC0700F74E29 /* LaunchScreen.storyboard */,
 				02DF761A2163BC0700F74E29 /* Info.plist */,
 				02DF76202163BC9800F74E29 /* Start.storyboard */,
+				F20C3F04216653D600020DBA /* LoginViewController.swift */,
+				F20C3F06216653F200020DBA /* RegistrationViewController.swift */,
 			);
 			path = InstagramClone;
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02DF76112163BC0600F74E29 /* ViewController.swift in Sources */,
+				F20C3F07216653F200020DBA /* RegistrationViewController.swift in Sources */,
+				F20C3F05216653D600020DBA /* LoginViewController.swift in Sources */,
 				02DF760F2163BC0600F74E29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
