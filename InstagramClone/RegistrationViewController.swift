@@ -30,7 +30,7 @@ class RegistrationViewController: UIViewController {
     
         //MARK: - Methoden
     func setupViews() {
-        
+        //Comment
         let attributeText = NSMutableAttributedString(string: "You have an Account?", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 17), NSAttributedString.Key.foregroundColor : UIColor.white])
         
         attributeText.append(NSMutableAttributedString(string: " " + "Login", attributes: [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 17), NSAttributedString.Key.foregroundColor: UIColor.red]))
