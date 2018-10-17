@@ -11,10 +11,10 @@
 		02DF76192163BC0700F74E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DF76172163BC0700F74E29 /* LaunchScreen.storyboard */; };
 		02DF76212163BC9800F74E29 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DF76202163BC9800F74E29 /* Start.storyboard */; };
 		AD2B93E89905B86940760258 /* Pods_InstagramClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F753A9A9F309769DC8A0ECBC /* Pods_InstagramClone.framework */; };
-		F206405C216D56FC00182CB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F206405B216D56FC00182CB1 /* GoogleService-Info.plist */; };
 		F20C3F05216653D600020DBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20C3F04216653D600020DBA /* LoginViewController.swift */; };
 		F20C3F07216653F200020DBA /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20C3F06216653F200020DBA /* RegistrationViewController.swift */; };
 		F29E10FA216E08330011B098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29E10F9216E08330011B098 /* Assets.xcassets */; };
+		F29E10FE217647450011B098 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F29E10FD217647450011B098 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +24,10 @@
 		02DF761A2163BC0700F74E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02DF76202163BC9800F74E29 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 		BFFF48664FD605143CC916E4 /* Pods-InstagramClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramClone/Pods-InstagramClone.release.xcconfig"; sourceTree = "<group>"; };
-		F206405B216D56FC00182CB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F20C3F04216653D600020DBA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F20C3F06216653F200020DBA /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		F29E10F9216E08330011B098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F29E10FD217647450011B098 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F753A9A9F309769DC8A0ECBC /* Pods_InstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA0162656DD70124BEDFB0A /* Pods-InstagramClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramClone/Pods-InstagramClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +69,7 @@
 				02DF760E2163BC0600F74E29 /* AppDelegate.swift */,
 				02DF76172163BC0700F74E29 /* LaunchScreen.storyboard */,
 				02DF761A2163BC0700F74E29 /* Info.plist */,
-				F206405B216D56FC00182CB1 /* GoogleService-Info.plist */,
+				F29E10FD217647450011B098 /* GoogleService-Info.plist */,
 				02DF76202163BC9800F74E29 /* Start.storyboard */,
 				F20C3F04216653D600020DBA /* LoginViewController.swift */,
 				F20C3F06216653F200020DBA /* RegistrationViewController.swift */,
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02DF76192163BC0700F74E29 /* LaunchScreen.storyboard in Resources */,
-				F206405C216D56FC00182CB1 /* GoogleService-Info.plist in Resources */,
+				F29E10FE217647450011B098 /* GoogleService-Info.plist in Resources */,
 				02DF76212163BC9800F74E29 /* Start.storyboard in Resources */,
 				F29E10FA216E08330011B098 /* Assets.xcassets in Resources */,
 			);
